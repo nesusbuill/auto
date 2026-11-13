@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chyps Solver</string>
+    <string name="accessibility_desc">Tự động đọc đề bài và chọn đáp án trắc nghiệm.</string>
+</resources>
