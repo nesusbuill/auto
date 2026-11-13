@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#111111">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHYPS SOLVER"
+        android:textColor="#FF6B35"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Switch
+        android:id="@+id/switchService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bật tự động giải đề"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khi bật, App cần quyền Trợ năng (Accessibility) để tự đọc đề và bấm đáp án."
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+</LinearLayout>
